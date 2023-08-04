@@ -7,13 +7,11 @@ variable "network_address_space" {
 }
 variable "access_key" {
   description = "The access_key that belongs to the IAM user"
-  type        = string
-  sensitive   = true
+  default = "AKIA4XYPACUQBXTMVBAN"
 }
 variable "secret_key" {
   description = "The secret_key that belongs to the IAM user"
-  type        = string
-  sensitive   = true
+  default = "5rcYaYo1SZcfdMCOhs4ZglXjqlySpYLE3R3KRxNJ"
 }
 variable "subnet1_address_space" {
   default = "10.1.0.0/24"
